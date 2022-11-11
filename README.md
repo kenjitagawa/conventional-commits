@@ -62,7 +62,3 @@ chmod +x git-commit.sh
 ## Execute
 ./git-commit.sh
 ```
-
-
-
-```
