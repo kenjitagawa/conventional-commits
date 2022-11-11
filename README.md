@@ -54,18 +54,3 @@ git clone https://github.com/charmbracelet/gum
 
 ```
 
-
-:art:
-
-:zap:
-:fire:
-:bug:
-:ambulance:
-:sparkles:
-:memo:
-:rocket:
-:lipstick:
-:tada:
-:white_check_mark:
-:lock:
-:poop:
