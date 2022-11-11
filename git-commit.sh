@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 function showfiles() {
 
     (echo "Adding these files:")
     for file in $1; do
-        (echo "\t * $file ✅ \n")
+        (echo "     * $file ✅")
     done
 
     gum spin --spinner dot --title "One second..." -- sleep 2
@@ -21,6 +21,8 @@ function gitadd () {
     # printf '%s\n' "$1" >&2 ## Send message to stderr.
     # exit "${2-1}" ## Return a code specified by $2, or 1 by default.
 }
+
+gum style --border normal --margin "1" --padding "1 2" --border-foreground 212 "Git Commit $(gum style --foreground 212 'Conventional Commits')."
 
 gum confirm "Did you make sure to run 'git add' on all the files you want to commit?" && \
      (echo "Cool! Continuing... :rocket:" | gum format -t emoji) || \

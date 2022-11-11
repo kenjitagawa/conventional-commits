@@ -38,6 +38,7 @@ sudo yum install gum
 # Alpine
 apk add gum
 
+
 # Android (via termux)
 pkg install gum
 
