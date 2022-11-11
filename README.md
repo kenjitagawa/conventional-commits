@@ -4,10 +4,9 @@
 
 This is a conventional commits helper for the CLI. This is not
 my code, it is a tutorial done by Charmbracelet on the subject of
-[gum](https://github.com/charmbracelet/gum).
+[gum](https://github.com/charmbracelet/gum). I have changed the original script in order to adjust it for my needs.
 
 ## Installation
-
 
 ```bash
 # macOS or Linux
@@ -54,3 +53,16 @@ git clone https://github.com/charmbracelet/gum
 
 ```
 
+## Usage
+
+```bash
+## Change the file permissions
+chmod +x git-commit.sh
+
+## Execute
+./git-commit.sh
+```
+
+
+
+```
