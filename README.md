@@ -62,4 +62,15 @@ chmod +x git-commit.sh
 
 ## Execute
 ./git-commit.sh
+
+```
+
+### Adding to PATH
+```bash
+## Coming soon...
+
+add to /usr/local/bin
+copy folder to /usr/local/lib/bash/scripts/
+run git-commit
+
 ```
